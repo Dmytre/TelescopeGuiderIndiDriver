@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/MountGuidingDrv.dir/Guider.o CMakeFiles/MountGuidingDrv.dir/COMInteract.o  -o MountGuidingDrv -rdynamic -lindidriver -lz -lnova 

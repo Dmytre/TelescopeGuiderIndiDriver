@@ -1,0 +1,2 @@
+2017-03-14 22:25:17.494 LOG_ALARM -----------------  log4z thread started!   ---------------------------- 
+2017-03-14 22:25:17.495 LOG_ALARM logger id=0 key=Main name=indi_qhy_ccd path=./log/ level=1 display=1 

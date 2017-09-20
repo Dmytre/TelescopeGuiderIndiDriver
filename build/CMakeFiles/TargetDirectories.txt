@@ -1,0 +1,1 @@
+/home/pi/Software/MyApplications/IndiGuider02/build/CMakeFiles/MountGuidingDrv.dir

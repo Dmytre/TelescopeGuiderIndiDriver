@@ -1,0 +1,232 @@
+pi@raspberrypi:~/Software/MyApplications/IndiGuider01 $ ./run_server 
+2017-03-11T17:40:28: startup: indiserver -vv build/MountGuidingDrv build/indi_qhy_ccd 
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: pid=1142 rfd=3 wfd=6 efd=7
+2017-03-11T17:40:28: Driver build/indi_qhy_ccd: pid=1143 rfd=4 wfd=9 efd=10
+2017-03-11T17:40:28: listening to port 7624 on fd 5
+2017-03-11T17:40:28: Driver build/indi_qhy_ccd: sending <getProperties version='1.7'/>
+
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: sending <getProperties version='1.7'/>
+
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: ISGetProperties() called
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: GuidingDriver::GuidingDriver() - CONSTRUCTOR called
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: ISInit() - initialized
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: GuidingDriver::ISGetProperties() called
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: GuidingDriver::initProperties() - called
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: read <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:40:28: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:41:26: Client 0: new arrival from 192.168.1.7:62016 - welcome!
+2017-03-11T17:41:26: Client 0: read <getProperties device='' name=''>
+2017-03-11T17:41:26: Driver build/indi_qhy_ccd: queuing responsible for <getProperties device='' name=''>
+2017-03-11T17:41:26: Driver build/MountGuidingDrv: queuing responsible for <getProperties device='' name=''>
+2017-03-11T17:41:26: Driver build/indi_qhy_ccd: sending <getProperties version="1.7"/>
+
+2017-03-11T17:41:26: Driver build/MountGuidingDrv: sending <getProperties version="1.7"/>
+
+2017-03-11T17:41:26: Driver build/MountGuidingDrv: ISGetProperties() called
+2017-03-11T17:41:26: Driver build/MountGuidingDrv: GuidingDriver::ISGetProperties() called
+2017-03-11T17:41:26: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:41:26: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:41:26: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:41:26: Driver build/MountGuidingDrv: read <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:41:26: Client 0: queuing <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:41:26: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:41:26: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:41:26: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:41:26: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:41:26: Client 0: sending <defTextVector device="Guiding Device (by Dmytre)"
+2017-03-11T17:41:26: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:41:26: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:41:27: Client 0: read EOF
+2017-03-11T17:41:27: Client 0: shut down complete - bye!
+2017-03-11T17:42:53: Client 0: new arrival from 192.168.1.7:62021 - welcome!
+2017-03-11T17:42:53: Client 0: read <getProperties device='' name=''>
+2017-03-11T17:42:53: Driver build/indi_qhy_ccd: queuing responsible for <getProperties device='' name=''>
+2017-03-11T17:42:53: Driver build/MountGuidingDrv: queuing responsible for <getProperties device='' name=''>
+2017-03-11T17:42:53: Driver build/indi_qhy_ccd: sending <getProperties version="1.7"/>
+
+2017-03-11T17:42:53: Driver build/MountGuidingDrv: sending <getProperties version="1.7"/>
+
+2017-03-11T17:42:53: Driver build/MountGuidingDrv: ISGetProperties() called
+2017-03-11T17:42:53: Driver build/MountGuidingDrv: GuidingDriver::ISGetProperties() called
+2017-03-11T17:42:53: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:42:53: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:42:53: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:42:53: Driver build/MountGuidingDrv: read <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:42:53: Client 0: queuing <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:42:53: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:42:53: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:42:53: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:42:53: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:42:53: Client 0: sending <defTextVector device="Guiding Device (by Dmytre)"
+2017-03-11T17:42:53: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:42:53: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:43:03: Client 0: read EOF
+2017-03-11T17:43:03: Client 0: shut down complete - bye!
+2017-03-11T17:43:06: Client 0: new arrival from 192.168.1.7:62022 - welcome!
+2017-03-11T17:43:06: Client 0: read <enableBLOB device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: queuing responsible for <enableBLOB device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: sending <enableBLOB device="Guiding Device (by Dmytre)">
+N
+2017-03-11T17:43:06: Client 0: read <getProperties device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: queuing responsible for <getProperties device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: sending <getProperties version="1.7" device="Guiding Devic
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: ISGetProperties() called
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: GuidingDriver::ISGetProperties() called
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:43:06: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: read <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:43:06: Client 0: queuing <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:43:06: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:43:06: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:43:06: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:43:06: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:43:06: Client 0: sending <defTextVector device="Guiding Device (by Dmytre)"
+2017-03-11T17:43:06: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:43:06: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:43:08: Client 0: read <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:43:08: Driver build/MountGuidingDrv: queuing responsible for <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:43:08: Driver build/MountGuidingDrv: sending <newSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:43:08: Driver build/MountGuidingDrv: ISNewSwitch(CONNECTION) - called
+2017-03-11T17:43:08: Driver build/MountGuidingDrv: GuidingDriver::Connect() - CONNECT function called
+2017-03-11T17:43:08: Driver build/MountGuidingDrv: Connect to device: PORT=/dev/ttyUSB0...FAILED!!!
+2017-03-11T17:43:08: Driver build/MountGuidingDrv: read <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:43:08: Client 0: queuing <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:43:08: Client 0: sending <setSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:43:13: Client 0: read <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:43:13: Driver build/MountGuidingDrv: queuing responsible for <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:43:13: Client 0: read EOF
+2017-03-11T17:43:13: Client 0: shut down complete - bye!
+2017-03-11T17:43:13: Driver build/MountGuidingDrv: sending <newSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:43:13: Driver build/MountGuidingDrv: ISNewSwitch(CONNECTION) - called
+2017-03-11T17:43:13: Driver build/MountGuidingDrv: GuidingDriver::updateProperties() called
+2017-03-11T17:43:13: Driver build/MountGuidingDrv: read <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:44:09: Client 0: new arrival from 192.168.1.7:62023 - welcome!
+2017-03-11T17:44:09: Client 0: read <enableBLOB device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: queuing responsible for <enableBLOB device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: sending <enableBLOB device="Guiding Device (by Dmytre)">
+N
+2017-03-11T17:44:09: Client 0: read <getProperties device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: queuing responsible for <getProperties device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: sending <getProperties version="1.7" device="Guiding Devic
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: ISGetProperties() called
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: GuidingDriver::ISGetProperties() called
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:44:09: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: read <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:44:09: Client 0: queuing <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:44:09: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:44:09: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:44:09: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:44:09: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:44:09: Client 0: sending <defTextVector device="Guiding Device (by Dmytre)"
+2017-03-11T17:44:09: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:44:09: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:44:11: Client 0: read <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:44:11: Driver build/MountGuidingDrv: queuing responsible for <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:44:11: Driver build/MountGuidingDrv: sending <newSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:44:11: Driver build/MountGuidingDrv: ISNewSwitch(CONNECTION) - called
+2017-03-11T17:44:11: Driver build/MountGuidingDrv: GuidingDriver::Connect() - CONNECT function called
+2017-03-11T17:44:11: Driver build/MountGuidingDrv: Connect to device: PORT=/dev/ttyUSB0...SUCCESS
+, bytesRead=1244:14: Driver build/MountGuidingDrv: Checking device status ..READ SUCCESS; res=RCSTATE:-1#
+, bytesRead=1144:16: Driver build/MountGuidingDrv: Start tracking ...READ SUCCESS; res=RCSTATE:1#
+2017-03-11T17:44:16: Driver build/MountGuidingDrv: SUCCESS
+2017-03-11T17:44:16: Driver build/MountGuidingDrv: GuidingDriver::updateProperties() called
+2017-03-11T17:44:16: Driver build/MountGuidingDrv: GuidingDriver::updateProperties() add guiding properties since connected
+2017-03-11T17:44:16: Driver build/MountGuidingDrv: read <message device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:44:16: Client 0: queuing <message device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:44:16: Driver build/MountGuidingDrv: read <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:44:16: Client 0: queuing <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:44:16: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_NS'>
+2017-03-11T17:44:16: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_NS'>
+2017-03-11T17:44:16: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_WE'>
+2017-03-11T17:44:16: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_WE'>
+2017-03-11T17:44:16: Client 0: sending <message device="Guiding Device (by Dmytre)" times
+2017-03-11T17:44:16: Client 0: sending <setSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:44:16: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:44:16: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+
+
+
+//Hit Disconnect
+
+2017-03-11T17:45:57: Client 0: read <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:45:57: Driver build/MountGuidingDrv: queuing responsible for <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:45:57: Driver build/MountGuidingDrv: sending <newSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:45:57: Driver build/MountGuidingDrv: ISNewSwitch(CONNECTION) - called
+2017-03-11T17:45:57: Driver build/MountGuidingDrv: GuidingDriver::Disconnect() - DISCONNECT function called
+2017-03-11T17:45:57: Driver build/MountGuidingDrv: Sending STOP-command ...
+2017-03-11T17:45:57: Client 0: read EOF
+2017-03-11T17:45:57: Client 0: shut down complete - bye!
+2017-03-11T17:45:59: Driver build/MountGuidingDrv: GuidingDriver::updateProperties() called
+2017-03-11T17:45:59: Driver build/MountGuidingDrv: read <message device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:45:59: Driver build/MountGuidingDrv: read <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+
+
+//Hit Connect Again 
+
+2017-03-11T17:47:48: Client 0: new arrival from 192.168.1.7:62027 - welcome!
+2017-03-11T17:47:48: Client 0: read <enableBLOB device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: queuing responsible for <enableBLOB device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: sending <enableBLOB device="Guiding Device (by Dmytre)">
+N
+2017-03-11T17:47:48: Client 0: read <getProperties device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: queuing responsible for <getProperties device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: sending <getProperties version="1.7" device="Guiding Devic
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: ISGetProperties() called
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: GuidingDriver::ISGetProperties() called
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:47:48: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: read <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:47:48: Client 0: queuing <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:47:48: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='GUIDE_RATE'>
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: read <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:47:48: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_NS'>
+2017-03-11T17:47:48: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_NS'>
+2017-03-11T17:47:48: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_WE'>
+2017-03-11T17:47:48: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_WE'>
+2017-03-11T17:47:48: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:48: Client 0: sending <defTextVector device="Guiding Device (by Dmytre)"
+2017-03-11T17:47:48: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:48: Client 0: sending <defSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:48: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:48: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:50: Client 0: read <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:47:50: Driver build/MountGuidingDrv: queuing responsible for <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:47:50: Driver build/MountGuidingDrv: sending <newSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:50: Driver build/MountGuidingDrv: ISNewSwitch(CONNECTION) - called
+2017-03-11T17:47:50: Driver build/MountGuidingDrv: GuidingDriver::Connect() - CONNECT function called
+2017-03-11T17:47:50: Driver build/MountGuidingDrv: Connect to device: PORT=/dev/ttyUSB0...SUCCESS
+, bytesRead=1247:52: Driver build/MountGuidingDrv: Checking device status ..READ SUCCESS; res=RCSTATE:-1#
+, bytesRead=1147:54: Driver build/MountGuidingDrv: Start tracking ...READ SUCCESS; res=RCSTATE:1#
+2017-03-11T17:47:54: Driver build/MountGuidingDrv: SUCCESS
+2017-03-11T17:47:54: Driver build/MountGuidingDrv: GuidingDriver::updateProperties() called
+2017-03-11T17:47:54: Driver build/MountGuidingDrv: GuidingDriver::updateProperties() add guiding properties since connected
+2017-03-11T17:47:54: Driver build/MountGuidingDrv: read <message device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:47:54: Client 0: queuing <message device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:47:54: Driver build/MountGuidingDrv: read <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:47:54: Client 0: queuing <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:47:54: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_NS'>
+2017-03-11T17:47:54: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_NS'>
+2017-03-11T17:47:54: Driver build/MountGuidingDrv: read <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_WE'>
+2017-03-11T17:47:54: Client 0: queuing <defNumberVector device='Guiding Device (by Dmytre)' name='TELESCOPE_TIMED_GUIDE_WE'>
+2017-03-11T17:47:54: Client 0: sending <message device="Guiding Device (by Dmytre)" times
+2017-03-11T17:47:54: Client 0: sending <setSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:54: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:54: Client 0: sending <defNumberVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:55: Client 0: read <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:47:55: Driver build/MountGuidingDrv: queuing responsible for <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2017-03-11T17:47:55: Driver build/MountGuidingDrv: sending <newSwitchVector device="Guiding Device (by Dmytre
+2017-03-11T17:47:55: Driver build/MountGuidingDrv: ISNewSwitch(CONNECTION) - called
+2017-03-11T17:47:55: Driver build/MountGuidingDrv: GuidingDriver::Disconnect() - DISCONNECT function called
+2017-03-11T17:47:55: Driver build/MountGuidingDrv: Sending STOP-command ...
+2017-03-11T17:47:55: Client 0: read EOF
+2017-03-11T17:47:55: Client 0: shut down complete - bye!
+2017-03-11T17:47:57: Driver build/MountGuidingDrv: GuidingDriver::updateProperties() called
+2017-03-11T17:47:57: Driver build/MountGuidingDrv: read <message device='Guiding Device (by Dmytre)' name=''>
+2017-03-11T17:47:57: Driver build/MountGuidingDrv: read <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>

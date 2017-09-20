@@ -1,0 +1,578 @@
+dmytre@raspberrypi:~/MyProjects/INDI/Guider01/build $ indiserver -vvv ../../simplescope_tutorial/build/simplescope
+2016-10-02T21:47:23: startup: indiserver -vvv ../../simplescope_tutorial/build/simplescope 
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: pid=2123 rfd=3 wfd=6 efd=7
+2016-10-02T21:47:23: listening to port 7624 on fd 4
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: sending msg copy 1 nq 1:
+<getProperties version='1.7'/>
+
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: read getProperties GPS Simulator GEOGRAPHIC_COORD 
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: snooping on GPS Simulator.GEOGRAPHIC_COORD
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: read getProperties GPS Simulator TIME_UTC 
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: snooping on GPS Simulator.TIME_UTC
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope CONNECTION Idle rw
+    CONNECT='Off'
+ DISCONNECT='On'
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: read defTextVector Dmytre Simple Scope DRIVER_INFO Idle ro
+ DRIVER_NAME='Dmytre Simple Scope'
+ DRIVER_EXEC='simplescope'
+ DRIVER_VERSION='1.0'
+ DRIVER_INTERFACE='1'
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope CONFIG_PROCESS Idle rw
+ CONFIG_LOAD='Off'
+ CONFIG_SAVE='Off'
+ CONFIG_DEFAULT='Off'
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: read defTextVector Dmytre Simple Scope DEVICE_PORT Idle rw
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: read setTextVector Dmytre Simple Scope DEVICE_PORT Ok
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope TELESCOPE_BAUD_RATE Idle rw
+       9600='On'
+      19200='Off'
+      38400='Off'
+      57600='Off'
+     115200='Off'
+     230400='Off'
+2016-10-02T21:47:23: Driver ../../simplescope_tutorial/build/simplescope: read setSwitchVector Dmytre Simple Scope TELESCOPE_BAUD_RATE Ok
+       9600='On'
+      19200='Off'
+      38400='Off'
+      57600='Off'
+     115200='Off'
+     230400='Off'
+2016-10-02T21:47:35: Client 0: new arrival from 127.0.0.1:41244 - welcome!
+2016-10-02T21:47:35: Client 0: read getProperties   
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: queuing responsible for <getProperties device='' name=''>
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: sending msg copy 1 nq 1:
+<getProperties version="1.7"/>
+
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope CONNECTION Idle rw
+    CONNECT='Off'
+ DISCONNECT='On'
+2016-10-02T21:47:35: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='CONNECTION'>
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: read defTextVector Dmytre Simple Scope DRIVER_INFO Idle ro
+ DRIVER_NAME='Dmytre Simple Scope'
+ DRIVER_EXEC='simplescope'
+ DRIVER_VERSION='1.0'
+ DRIVER_INTERFACE='1'
+2016-10-02T21:47:35: Client 0: queuing <defTextVector device='Dmytre Simple Scope' name='DRIVER_INFO'>
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope CONFIG_PROCESS Idle rw
+ CONFIG_LOAD='Off'
+ CONFIG_SAVE='Off'
+ CONFIG_DEFAULT='Off'
+2016-10-02T21:47:35: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='CONFIG_PROCESS'>
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: read defTextVector Dmytre Simple Scope DEVICE_PORT Ok rw
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:35: Client 0: queuing <defTextVector device='Dmytre Simple Scope' name='DEVICE_PORT'>
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope TELESCOPE_BAUD_RATE Ok rw
+       9600='On'
+      19200='Off'
+      38400='Off'
+      57600='Off'
+     115200='Off'
+     230400='Off'
+2016-10-02T21:47:35: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='TELESCOPE_BAUD_RATE'>
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: read defTextVector Dmytre Simple Scope DEVICE_PORT Ok rw
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:35: Client 0: queuing <defTextVector device='Dmytre Simple Scope' name='DEVICE_PORT'>
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: read setTextVector Dmytre Simple Scope DEVICE_PORT Ok
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:35: Client 0: queuing <setTextVector device='Dmytre Simple Scope' name='DEVICE_PORT'>
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope TELESCOPE_BAUD_RATE Ok rw
+       9600='On'
+      19200='Off'
+      38400='Off'
+      57600='Off'
+     115200='Off'
+     230400='Off'
+2016-10-02T21:47:35: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='TELESCOPE_BAUD_RATE'>
+2016-10-02T21:47:35: Client 0: sending msg copy 1 nq 8:
+<defSwitchVector device="Dmytre Simple Scope" name="CONNECTION" label="Connection" group="Main Control" state="Idle" perm="rw" rule="OneOfMany" timeout="60" timestamp="2016-10-02T21:47:35">
+    <defSwitch name="CONNECT" label="Connect">
+Off
+    </defSwitch>
+    <defSwitch name="DISCONNECT" label="Disconnect">
+On
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:35: Driver ../../simplescope_tutorial/build/simplescope: read setSwitchVector Dmytre Simple Scope TELESCOPE_BAUD_RATE Ok
+       9600='On'
+      19200='Off'
+      38400='Off'
+      57600='Off'
+     115200='Off'
+     230400='Off'
+2016-10-02T21:47:35: Client 0: queuing <setSwitchVector device='Dmytre Simple Scope' name='TELESCOPE_BAUD_RATE'>
+2016-10-02T21:47:35: Client 0: sending msg copy 1 nq 8:
+<defTextVector device="Dmytre Simple Scope" name="DRIVER_INFO" label="Driver Info" group="Options" state="Idle" perm="ro" timeout="60" timestamp="2016-10-02T21:47:35">
+    <defText name="DRIVER_NAME" label="Name">
+Dmytre Simple Scope
+    </defText>
+    <defText name="DRIVER_EXEC" label="Exec">
+simplescope
+    </defText>
+    <defText name="DRIVER_VERSION" label="Version">
+1.0
+    </defText>
+    <defText name="DRIVER_INTERFACE" label="Interface">
+1
+    </defText>
+</defTextVector>
+
+2016-10-02T21:47:35: Client 0: sending msg copy 1 nq 7:
+<defSwitchVector device="Dmytre Simple Scope" name="CONFIG_PROCESS" label="Configuration" group="Options" state="Idle" perm="rw" rule="AtMostOne" timeout="0" timestamp="2016-10-02T21:47:35">
+    <defSwitch name="CONFIG_LOAD" label="Load">
+Off
+    </defSwitch>
+    <defSwitch name="CONFIG_SAVE" label="Save">
+Off
+    </defSwitch>
+    <defSwitch name="CONFIG_DEFAULT" label="Default">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:35: Client 0: sending msg copy 1 nq 6:
+<defTextVector device="Dmytre Simple Scope" name="DEVICE_PORT" label="Ports" group="Options" state="Ok" perm="rw" timeout="60" timestamp="2016-10-02T21:47:35">
+    <defText name="PORT" label="Port">
+/dev/ttyUSB0
+    </defText>
+</defTextVector>
+
+2016-10-02T21:47:35: Client 0: sending msg copy 1 nq 5:
+<defSwitchVector device="Dmytre Simple Scope" name="TELESCOPE_BAUD_RATE" label="Baud Rate" group="Options" state="Ok" perm="rw" rule="OneOfMany" timeout="60" timestamp="2016-10-02T21:47:35">
+    <defSwitch name="9600" label="">
+On
+    </defSwitch>
+    <defSwitch name="19200" label="">
+Off
+    </defSwitch>
+    <defSwitch name="38400" label="">
+Off
+    </defSwitch>
+    <defSwitch name="57600" label="">
+Off
+    </defSwitch>
+    <defSwitch name="115200" label="">
+Off
+    </defSwitch>
+    <defSwitch name="230400" label="">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:35: Client 0: sending msg copy 1 nq 4:
+<defTextVector device="Dmytre Simple Scope" name="DEVICE_PORT" label="Ports" group="Options" state="Ok" perm="rw" timeout="60" timestamp="2016-10-02T21:47:35">
+    <defText name="PORT" label="Port">
+/dev/ttyUSB0
+    </defText>
+</defTextVector>
+
+2016-10-02T21:47:35: Client 0: sending msg copy 1 nq 3:
+<setTextVector device="Dmytre Simple Scope" name="DEVICE_PORT" state="Ok" timeout="60" timestamp="2016-10-02T21:47:35">
+    <oneText name="PORT">
+/dev/ttyUSB0
+    </oneText>
+</setTextVector>
+
+2016-10-02T21:47:35: Client 0: sending msg copy 1 nq 2:
+<defSwitchVector device="Dmytre Simple Scope" name="TELESCOPE_BAUD_RATE" label="Baud Rate" group="Options" state="Ok" perm="rw" rule="OneOfMany" timeout="60" timestamp="2016-10-02T21:47:35">
+    <defSwitch name="9600" label="">
+On
+    </defSwitch>
+    <defSwitch name="19200" label="">
+Off
+    </defSwitch>
+    <defSwitch name="38400" label="">
+Off
+    </defSwitch>
+    <defSwitch name="57600" label="">
+Off
+    </defSwitch>
+    <defSwitch name="115200" label="">
+Off
+    </defSwitch>
+    <defSwitch name="230400" label="">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:35: Client 0: sending msg copy 1 nq 1:
+<setSwitchVector device="Dmytre Simple Scope" name="TELESCOPE_BAUD_RATE" state="Ok" timeout="60" timestamp="2016-10-02T21:47:35">
+    <oneSwitch name="9600">
+On
+    </oneSwitch>
+    <oneSwitch name="19200">
+Off
+    </oneSwitch>
+    <oneSwitch name="38400">
+Off
+    </oneSwitch>
+    <oneSwitch name="57600">
+Off
+    </oneSwitch>
+    <oneSwitch name="115200">
+Off
+    </oneSwitch>
+    <oneSwitch name="230400">
+Off
+    </oneSwitch>
+</setSwitchVector>
+
+2016-10-02T21:47:41: Client 0: read EOF
+2016-10-02T21:47:41: Client 0: shut down complete - bye!
+2016-10-02T21:47:43: Client 0: new arrival from 127.0.0.1:41246 - welcome!
+2016-10-02T21:47:43: Client 0: read enableBLOB Dmytre Simple Scope   Never
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: queuing responsible for <enableBLOB device='Dmytre Simple Scope' name=''>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: sending msg copy 1 nq 1:
+<enableBLOB device="Dmytre Simple Scope">
+Never
+</enableBLOB>
+
+2016-10-02T21:47:43: Client 0: read getProperties Dmytre Simple Scope  
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: queuing responsible for <getProperties device='Dmytre Simple Scope' name=''>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: sending msg copy 1 nq 1:
+<getProperties version="1.7" device="Dmytre Simple Scope"/>
+
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope CONNECTION Idle rw
+    CONNECT='Off'
+ DISCONNECT='On'
+2016-10-02T21:47:43: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='CONNECTION'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defTextVector Dmytre Simple Scope DRIVER_INFO Idle ro
+ DRIVER_NAME='Dmytre Simple Scope'
+ DRIVER_EXEC='simplescope'
+ DRIVER_VERSION='1.0'
+ DRIVER_INTERFACE='1'
+2016-10-02T21:47:43: Client 0: queuing <defTextVector device='Dmytre Simple Scope' name='DRIVER_INFO'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope CONFIG_PROCESS Idle rw
+ CONFIG_LOAD='Off'
+ CONFIG_SAVE='Off'
+ CONFIG_DEFAULT='Off'
+2016-10-02T21:47:43: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='CONFIG_PROCESS'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defTextVector Dmytre Simple Scope DEVICE_PORT Ok rw
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:43: Client 0: queuing <defTextVector device='Dmytre Simple Scope' name='DEVICE_PORT'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope TELESCOPE_BAUD_RATE Ok rw
+       9600='On'
+      19200='Off'
+      38400='Off'
+      57600='Off'
+     115200='Off'
+     230400='Off'
+2016-10-02T21:47:43: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='TELESCOPE_BAUD_RATE'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defTextVector Dmytre Simple Scope DEVICE_PORT Ok rw
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:43: Client 0: queuing <defTextVector device='Dmytre Simple Scope' name='DEVICE_PORT'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read setTextVector Dmytre Simple Scope DEVICE_PORT Ok
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:43: Client 0: queuing <setTextVector device='Dmytre Simple Scope' name='DEVICE_PORT'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope TELESCOPE_BAUD_RATE Ok rw
+       9600='On'
+      19200='Off'
+      38400='Off'
+      57600='Off'
+     115200='Off'
+     230400='Off'
+2016-10-02T21:47:43: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='TELESCOPE_BAUD_RATE'>
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 8:
+<defSwitchVector device="Dmytre Simple Scope" name="CONNECTION" label="Connection" group="Main Control" state="Idle" perm="rw" rule="OneOfMany" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defSwitch name="CONNECT" label="Connect">
+Off
+    </defSwitch>
+    <defSwitch name="DISCONNECT" label="Disconnect">
+On
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read setSwitchVector Dmytre Simple Scope TELESCOPE_BAUD_RATE Ok
+       9600='On'
+      19200='Off'
+      38400='Off'
+      57600='Off'
+     115200='Off'
+     230400='Off'
+2016-10-02T21:47:43: Client 0: queuing <setSwitchVector device='Dmytre Simple Scope' name='TELESCOPE_BAUD_RATE'>
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 8:
+<defTextVector device="Dmytre Simple Scope" name="DRIVER_INFO" label="Driver Info" group="Options" state="Idle" perm="ro" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defText name="DRIVER_NAME" label="Name">
+Dmytre Simple Scope
+    </defText>
+    <defText name="DRIVER_EXEC" label="Exec">
+simplescope
+    </defText>
+    <defText name="DRIVER_VERSION" label="Version">
+1.0
+    </defText>
+    <defText name="DRIVER_INTERFACE" label="Interface">
+1
+    </defText>
+</defTextVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 7:
+<defSwitchVector device="Dmytre Simple Scope" name="CONFIG_PROCESS" label="Configuration" group="Options" state="Idle" perm="rw" rule="AtMostOne" timeout="0" timestamp="2016-10-02T21:47:43">
+    <defSwitch name="CONFIG_LOAD" label="Load">
+Off
+    </defSwitch>
+    <defSwitch name="CONFIG_SAVE" label="Save">
+Off
+    </defSwitch>
+    <defSwitch name="CONFIG_DEFAULT" label="Default">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 6:
+<defTextVector device="Dmytre Simple Scope" name="DEVICE_PORT" label="Ports" group="Options" state="Ok" perm="rw" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defText name="PORT" label="Port">
+/dev/ttyUSB0
+    </defText>
+</defTextVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 5:
+<defSwitchVector device="Dmytre Simple Scope" name="TELESCOPE_BAUD_RATE" label="Baud Rate" group="Options" state="Ok" perm="rw" rule="OneOfMany" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defSwitch name="9600" label="">
+On
+    </defSwitch>
+    <defSwitch name="19200" label="">
+Off
+    </defSwitch>
+    <defSwitch name="38400" label="">
+Off
+    </defSwitch>
+    <defSwitch name="57600" label="">
+Off
+    </defSwitch>
+    <defSwitch name="115200" label="">
+Off
+    </defSwitch>
+    <defSwitch name="230400" label="">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 4:
+<defTextVector device="Dmytre Simple Scope" name="DEVICE_PORT" label="Ports" group="Options" state="Ok" perm="rw" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defText name="PORT" label="Port">
+/dev/ttyUSB0
+    </defText>
+</defTextVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 3:
+<setTextVector device="Dmytre Simple Scope" name="DEVICE_PORT" state="Ok" timeout="60" timestamp="2016-10-02T21:47:43">
+    <oneText name="PORT">
+/dev/ttyUSB0
+    </oneText>
+</setTextVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 2:
+<defSwitchVector device="Dmytre Simple Scope" name="TELESCOPE_BAUD_RATE" label="Baud Rate" group="Options" state="Ok" perm="rw" rule="OneOfMany" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defSwitch name="9600" label="">
+On
+    </defSwitch>
+    <defSwitch name="19200" label="">
+Off
+    </defSwitch>
+    <defSwitch name="38400" label="">
+Off
+    </defSwitch>
+    <defSwitch name="57600" label="">
+Off
+    </defSwitch>
+    <defSwitch name="115200" label="">
+Off
+    </defSwitch>
+    <defSwitch name="230400" label="">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 1:
+<setSwitchVector device="Dmytre Simple Scope" name="TELESCOPE_BAUD_RATE" state="Ok" timeout="60" timestamp="2016-10-02T21:47:43">
+    <oneSwitch name="9600">
+On
+    </oneSwitch>
+    <oneSwitch name="19200">
+Off
+    </oneSwitch>
+    <oneSwitch name="38400">
+Off
+    </oneSwitch>
+    <oneSwitch name="57600">
+Off
+    </oneSwitch>
+    <oneSwitch name="115200">
+Off
+    </oneSwitch>
+    <oneSwitch name="230400">
+Off
+    </oneSwitch>
+</setSwitchVector>
+
+2016-10-02T21:47:43: Client 0: read newTextVector Dmytre Simple Scope DEVICE_PORT 
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: queuing responsible for <newTextVector device='Dmytre Simple Scope' name='DEVICE_PORT'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: sending msg copy 1 nq 1:
+<newTextVector device="Dmytre Simple Scope" name="DEVICE_PORT">
+    <oneText name="PORT">
+/dev/ttyUSB0
+    </oneText>
+</newTextVector>
+
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read setTextVector Dmytre Simple Scope DEVICE_PORT Ok
+       PORT='/dev/ttyUSB0'
+2016-10-02T21:47:43: Client 0: queuing <setTextVector device='Dmytre Simple Scope' name='DEVICE_PORT'>
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 1:
+<setTextVector device="Dmytre Simple Scope" name="DEVICE_PORT" state="Ok" timeout="60" timestamp="2016-10-02T21:47:43">
+    <oneText name="PORT">
+/dev/ttyUSB0
+    </oneText>
+</setTextVector>
+
+2016-10-02T21:47:43: Client 0: read newSwitchVector Dmytre Simple Scope CONNECTION 
+    CONNECT='On'
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: queuing responsible for <newSwitchVector device='Dmytre Simple Scope' name='CONNECTION'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: sending msg copy 1 nq 1:
+<newSwitchVector device="Dmytre Simple Scope" name="CONNECTION">
+    <oneSwitch name="CONNECT">
+On
+    </oneSwitch>
+</newSwitchVector>
+
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read message Dmytre Simple Scope   'DEBUG msg in Connect()'
+2016-10-02T21:47:43: Client 0: queuing <message device='Dmytre Simple Scope' name=''>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read setSwitchVector Dmytre Simple Scope CONNECTION Ok
+    CONNECT='On'
+ DISCONNECT='Off'
+2016-10-02T21:47:43: Client 0: queuing <setSwitchVector device='Dmytre Simple Scope' name='CONNECTION'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope ON_COORD_SET Idle rw
+      TRACK='On'
+       SLEW='Off'
+2016-10-02T21:47:43: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='ON_COORD_SET'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defNumberVector Dmytre Simple Scope EQUATORIAL_EOD_COORD Idle rw
+         RA='0'
+        DEC='0'
+2016-10-02T21:47:43: Client 0: queuing <defNumberVector device='Dmytre Simple Scope' name='EQUATORIAL_EOD_COORD'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope TELESCOPE_ABORT_MOTION Idle rw
+      ABORT='Off'
+2016-10-02T21:47:43: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='TELESCOPE_ABORT_MOTION'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope TELESCOPE_MOTION_NS Idle rw
+ MOTION_NORTH='Off'
+ MOTION_SOUTH='Off'
+2016-10-02T21:47:43: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='TELESCOPE_MOTION_NS'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope TELESCOPE_MOTION_WE Idle rw
+ MOTION_WEST='Off'
+ MOTION_EAST='Off'
+2016-10-02T21:47:43: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='TELESCOPE_MOTION_WE'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defNumberVector Dmytre Simple Scope TELESCOPE_INFO Ok rw
+ TELESCOPE_APERTURE='0'
+ TELESCOPE_FOCAL_LENGTH='0'
+ GUIDER_APERTURE='0'
+ GUIDER_FOCAL_LENGTH='0'
+2016-10-02T21:47:43: Client 0: queuing <defNumberVector device='Dmytre Simple Scope' name='TELESCOPE_INFO'>
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defNumberVector Dmytre Simple Scope TARGET_EOD_COORD Idle ro
+         RA='0'
+        DEC='0'
+2016-10-02T21:47:43: Client 0: queuing <defNumberVector device='Dmytre Simple Scope' name='TARGET_EOD_COORD'>
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 9:
+<message device="Dmytre Simple Scope" timestamp="2016-10-02T21:47:43" message="DEBUG msg in Connect()"/>
+
+2016-10-02T21:47:43: Driver ../../simplescope_tutorial/build/simplescope: read defSwitchVector Dmytre Simple Scope USEJOYSTICK Idle rw
+     ENABLE='Off'
+    DISABLE='On'
+2016-10-02T21:47:43: Client 0: queuing <defSwitchVector device='Dmytre Simple Scope' name='USEJOYSTICK'>
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 9:
+<setSwitchVector device="Dmytre Simple Scope" name="CONNECTION" state="Ok" timeout="60" timestamp="2016-10-02T21:47:43">
+    <oneSwitch name="CONNECT">
+On
+    </oneSwitch>
+    <oneSwitch name="DISCONNECT">
+Off
+    </oneSwitch>
+</setSwitchVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 8:
+<defSwitchVector device="Dmytre Simple Scope" name="ON_COORD_SET" label="On Set" group="Main Control" state="Idle" perm="rw" rule="OneOfMany" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defSwitch name="TRACK" label="Track">
+On
+    </defSwitch>
+    <defSwitch name="SLEW" label="Slew">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 7:
+<defNumberVector device="Dmytre Simple Scope" name="EQUATORIAL_EOD_COORD" label="Eq. Coordinates" group="Main Control" state="Idle" perm="rw" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defNumber name="RA" label="RA (hh:mm:ss)" format="%010.6m" min="0" max="24" step="0">
+0
+    </defNumber>
+    <defNumber name="DEC" label="DEC (dd:mm:ss)" format="%010.6m" min="-90" max="90" step="0">
+0
+    </defNumber>
+</defNumberVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 6:
+<defSwitchVector device="Dmytre Simple Scope" name="TELESCOPE_ABORT_MOTION" label="Abort Motion" group="Main Control" state="Idle" perm="rw" rule="AtMostOne" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defSwitch name="ABORT" label="Abort">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 5:
+<defSwitchVector device="Dmytre Simple Scope" name="TELESCOPE_MOTION_NS" label="Motion N/S" group="Motion Control" state="Idle" perm="rw" rule="AtMostOne" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defSwitch name="MOTION_NORTH" label="North">
+Off
+    </defSwitch>
+    <defSwitch name="MOTION_SOUTH" label="South">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 4:
+<defSwitchVector device="Dmytre Simple Scope" name="TELESCOPE_MOTION_WE" label="Motion W/E" group="Motion Control" state="Idle" perm="rw" rule="AtMostOne" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defSwitch name="MOTION_WEST" label="West">
+Off
+    </defSwitch>
+    <defSwitch name="MOTION_EAST" label="East">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 3:
+<defNumberVector device="Dmytre Simple Scope" name="TELESCOPE_INFO" label="Scope Properties" group="Options" state="Ok" perm="rw" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defNumber name="TELESCOPE_APERTURE" label="Aperture (mm)" format="%g" min="10" max="5000" step="0">
+0
+    </defNumber>
+    <defNumber name="TELESCOPE_FOCAL_LENGTH" label="Focal Length (mm)" format="%g" min="100" max="10000" step="0">
+0
+    </defNumber>
+    <defNumber name="GUIDER_APERTURE" label="Guider Aperture (mm)" format="%g" min="10" max="5000" step="0">
+0
+    </defNumber>
+    <defNumber name="GUIDER_FOCAL_LENGTH" label="Guider Focal Length (mm)" format="%g" min="100" max="10000" step="0">
+0
+    </defNumber>
+</defNumberVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 2:
+<defNumberVector device="Dmytre Simple Scope" name="TARGET_EOD_COORD" label="Slew Target" group="Motion Control" state="Idle" perm="ro" timeout="60" timestamp="2016-10-02T21:47:43">
+    <defNumber name="RA" label="RA (hh:mm:ss)" format="%010.6m" min="0" max="24" step="0">
+0
+    </defNumber>
+    <defNumber name="DEC" label="DEC (dd:mm:ss)" format="%010.6m" min="-90" max="90" step="0">
+0
+    </defNumber>
+</defNumberVector>
+
+2016-10-02T21:47:43: Client 0: sending msg copy 1 nq 1:
+<defSwitchVector device="Dmytre Simple Scope" name="USEJOYSTICK" label="Joystick" group="Options" state="Idle" perm="rw" rule="OneOfMany" timeout="0" timestamp="2016-10-02T21:47:43">
+    <defSwitch name="ENABLE" label="Enable">
+Off
+    </defSwitch>
+    <defSwitch name="DISABLE" label="Disable">
+On
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:47:48: Client 0: read EOF
+2016-10-02T21:47:48: Client 0: shut down complete - bye!
+

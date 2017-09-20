@@ -1,0 +1,198 @@
+dmytre@raspberrypi:~/MyProjects/INDI/Guider01/build $ indiserver -vvv  ./MountGuidingDrv 
+2016-10-02T21:51:44: startup: indiserver -vvv ./MountGuidingDrv 
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: pid=2154 rfd=3 wfd=6 efd=7
+2016-10-02T21:51:44: listening to port 7624 on fd 4
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: sending msg copy 1 nq 1:
+<getProperties version='1.7'/>
+
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: ISGetProperties() called
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: ISInit() - called
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: GuidingDriver::GuidingDriver() - CONSTRUCTOR called
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: ISInit() - initialized
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: GuidingDriver::ISGetProperties() called
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: GuidingDriver::initProperties() - called
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: read defSwitchVector Guiding Device (by Dmytre) CONNECTION Idle rw
+    CONNECT='Off'
+ DISCONNECT='On'
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: read defTextVector Guiding Device (by Dmytre) DRIVER_INFO Idle ro
+ DRIVER_NAME='Guiding Device (by Dmytre)'
+ DRIVER_EXEC='MountGuidingDrv'
+ DRIVER_VERSION='1.0'
+ DRIVER_INTERFACE='0'
+2016-10-02T21:51:44: Driver ./MountGuidingDrv: read defSwitchVector Guiding Device (by Dmytre) CONFIG_PROCESS Idle rw
+ CONFIG_LOAD='Off'
+ CONFIG_SAVE='Off'
+ CONFIG_DEFAULT='Off'
+2016-10-02T21:51:55: Client 0: new arrival from 127.0.0.1:41248 - welcome!
+2016-10-02T21:51:55: Client 0: read getProperties   
+2016-10-02T21:51:55: Driver ./MountGuidingDrv: queuing responsible for <getProperties device='' name=''>
+2016-10-02T21:51:55: Driver ./MountGuidingDrv: sending msg copy 1 nq 1:
+<getProperties version="1.7"/>
+
+2016-10-02T21:51:55: Driver ./MountGuidingDrv: ISGetProperties() called
+2016-10-02T21:51:55: Driver ./MountGuidingDrv: ISInit() - called
+2016-10-02T21:51:55: Driver ./MountGuidingDrv: ISInit() - already initialized
+2016-10-02T21:51:55: Driver ./MountGuidingDrv: GuidingDriver::ISGetProperties() called
+2016-10-02T21:51:55: Driver ./MountGuidingDrv: read defSwitchVector Guiding Device (by Dmytre) CONNECTION Idle rw
+    CONNECT='Off'
+ DISCONNECT='On'
+2016-10-02T21:51:55: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2016-10-02T21:51:55: Client 0: sending msg copy 1 nq 1:
+<defSwitchVector device="Guiding Device (by Dmytre)" name="CONNECTION" label="Connection" group="Main Control" state="Idle" perm="rw" rule="OneOfMany" timeout="60" timestamp="2016-10-02T21:51:55">
+    <defSwitch name="CONNECT" label="Connect">
+Off
+    </defSwitch>
+    <defSwitch name="DISCONNECT" label="Disconnect">
+On
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:51:55: Driver ./MountGuidingDrv: read defTextVector Guiding Device (by Dmytre) DRIVER_INFO Idle ro
+ DRIVER_NAME='Guiding Device (by Dmytre)'
+ DRIVER_EXEC='MountGuidingDrv'
+ DRIVER_VERSION='1.0'
+ DRIVER_INTERFACE='0'
+2016-10-02T21:51:55: Client 0: queuing <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2016-10-02T21:51:55: Driver ./MountGuidingDrv: read defSwitchVector Guiding Device (by Dmytre) CONFIG_PROCESS Idle rw
+ CONFIG_LOAD='Off'
+ CONFIG_SAVE='Off'
+ CONFIG_DEFAULT='Off'
+2016-10-02T21:51:55: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2016-10-02T21:51:55: Client 0: sending msg copy 1 nq 2:
+<defTextVector device="Guiding Device (by Dmytre)" name="DRIVER_INFO" label="Driver Info" group="Options" state="Idle" perm="ro" timeout="60" timestamp="2016-10-02T21:51:55">
+    <defText name="DRIVER_NAME" label="Name">
+Guiding Device (by Dmytre)
+    </defText>
+    <defText name="DRIVER_EXEC" label="Exec">
+MountGuidingDrv
+    </defText>
+    <defText name="DRIVER_VERSION" label="Version">
+1.0
+    </defText>
+    <defText name="DRIVER_INTERFACE" label="Interface">
+0
+    </defText>
+</defTextVector>
+
+2016-10-02T21:51:55: Client 0: sending msg copy 1 nq 1:
+<defSwitchVector device="Guiding Device (by Dmytre)" name="CONFIG_PROCESS" label="Configuration" group="Options" state="Idle" perm="rw" rule="AtMostOne" timeout="0" timestamp="2016-10-02T21:51:55">
+    <defSwitch name="CONFIG_LOAD" label="Load">
+Off
+    </defSwitch>
+    <defSwitch name="CONFIG_SAVE" label="Save">
+Off
+    </defSwitch>
+    <defSwitch name="CONFIG_DEFAULT" label="Default">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:52:02: Client 0: read EOF
+2016-10-02T21:52:02: Client 0: shut down complete - bye!
+2016-10-02T21:52:03: Client 0: new arrival from 127.0.0.1:41250 - welcome!
+2016-10-02T21:52:03: Client 0: read enableBLOB Guiding Device (by Dmytre)   Never
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: queuing responsible for <enableBLOB device='Guiding Device (by Dmytre)' name=''>
+2016-10-02T21:52:03: Client 0: read getProperties Guiding Device (by Dmytre)  
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: queuing responsible for <getProperties device='Guiding Device (by Dmytre)' name=''>
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: sending msg copy 1 nq 2:
+<enableBLOB device="Guiding Device (by Dmytre)">
+Never
+</enableBLOB>
+
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: sending msg copy 1 nq 1:
+<getProperties version="1.7" device="Guiding Device (by Dmytre)"/>
+
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: ISGetProperties() called
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: ISInit() - called
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: ISInit() - already initialized
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: GuidingDriver::ISGetProperties() called
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: read defSwitchVector Guiding Device (by Dmytre) CONNECTION Idle rw
+    CONNECT='Off'
+ DISCONNECT='On'
+2016-10-02T21:52:03: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: read defTextVector Guiding Device (by Dmytre) DRIVER_INFO Idle ro
+ DRIVER_NAME='Guiding Device (by Dmytre)'
+ DRIVER_EXEC='MountGuidingDrv'
+ DRIVER_VERSION='1.0'
+ DRIVER_INTERFACE='0'
+2016-10-02T21:52:03: Client 0: queuing <defTextVector device='Guiding Device (by Dmytre)' name='DRIVER_INFO'>
+2016-10-02T21:52:03: Driver ./MountGuidingDrv: read defSwitchVector Guiding Device (by Dmytre) CONFIG_PROCESS Idle rw
+ CONFIG_LOAD='Off'
+ CONFIG_SAVE='Off'
+ CONFIG_DEFAULT='Off'
+2016-10-02T21:52:03: Client 0: queuing <defSwitchVector device='Guiding Device (by Dmytre)' name='CONFIG_PROCESS'>
+2016-10-02T21:52:03: Client 0: sending msg copy 1 nq 3:
+<defSwitchVector device="Guiding Device (by Dmytre)" name="CONNECTION" label="Connection" group="Main Control" state="Idle" perm="rw" rule="OneOfMany" timeout="60" timestamp="2016-10-02T21:52:03">
+    <defSwitch name="CONNECT" label="Connect">
+Off
+    </defSwitch>
+    <defSwitch name="DISCONNECT" label="Disconnect">
+On
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:52:03: Client 0: sending msg copy 1 nq 2:
+<defTextVector device="Guiding Device (by Dmytre)" name="DRIVER_INFO" label="Driver Info" group="Options" state="Idle" perm="ro" timeout="60" timestamp="2016-10-02T21:52:03">
+    <defText name="DRIVER_NAME" label="Name">
+Guiding Device (by Dmytre)
+    </defText>
+    <defText name="DRIVER_EXEC" label="Exec">
+MountGuidingDrv
+    </defText>
+    <defText name="DRIVER_VERSION" label="Version">
+1.0
+    </defText>
+    <defText name="DRIVER_INTERFACE" label="Interface">
+0
+    </defText>
+</defTextVector>
+
+2016-10-02T21:52:03: Client 0: sending msg copy 1 nq 1:
+<defSwitchVector device="Guiding Device (by Dmytre)" name="CONFIG_PROCESS" label="Configuration" group="Options" state="Idle" perm="rw" rule="AtMostOne" timeout="0" timestamp="2016-10-02T21:52:03">
+    <defSwitch name="CONFIG_LOAD" label="Load">
+Off
+    </defSwitch>
+    <defSwitch name="CONFIG_SAVE" label="Save">
+Off
+    </defSwitch>
+    <defSwitch name="CONFIG_DEFAULT" label="Default">
+Off
+    </defSwitch>
+</defSwitchVector>
+
+2016-10-02T21:52:05: Client 0: read newSwitchVector Guiding Device (by Dmytre) CONNECTION 
+    CONNECT='On'
+2016-10-02T21:52:05: Driver ./MountGuidingDrv: queuing responsible for <newSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2016-10-02T21:52:05: Driver ./MountGuidingDrv: sending msg copy 1 nq 1:
+<newSwitchVector device="Guiding Device (by Dmytre)" name="CONNECTION">
+    <oneSwitch name="CONNECT">
+On
+    </oneSwitch>
+</newSwitchVector>
+
+2016-10-02T21:52:05: Driver ./MountGuidingDrv: ISNewSwitch() - called
+2016-10-02T21:52:05: Driver ./MountGuidingDrv: ISInit() - called
+2016-10-02T21:52:05: Driver ./MountGuidingDrv: ISInit() - already initialized
+2016-10-02T21:52:05: Driver ./MountGuidingDrv: GuidingDriver::Connect() - CONNECT function called
+2016-10-02T21:52:05: Driver ./MountGuidingDrv: read message Guiding Device (by Dmytre)   'GuidingDriver connected successfully!'
+2016-10-02T21:52:05: Client 0: queuing <message device='Guiding Device (by Dmytre)' name=''>
+2016-10-02T21:52:05: Driver ./MountGuidingDrv: read setSwitchVector Guiding Device (by Dmytre) CONNECTION Ok
+    CONNECT='On'
+ DISCONNECT='Off'
+2016-10-02T21:52:05: Client 0: queuing <setSwitchVector device='Guiding Device (by Dmytre)' name='CONNECTION'>
+2016-10-02T21:52:05: Client 0: sending msg copy 1 nq 2:
+<message device="Guiding Device (by Dmytre)" timestamp="2016-10-02T21:52:05" message="GuidingDriver connected successfully!"/>
+
+2016-10-02T21:52:05: Client 0: sending msg copy 1 nq 1:
+<setSwitchVector device="Guiding Device (by Dmytre)" name="CONNECTION" state="Ok" timeout="60" timestamp="2016-10-02T21:52:05">
+    <oneSwitch name="CONNECT">
+On
+    </oneSwitch>
+    <oneSwitch name="DISCONNECT">
+Off
+    </oneSwitch>
+</setSwitchVector>
+
+2016-10-02T21:52:11: Client 0: read EOF
+2016-10-02T21:52:11: Client 0: shut down complete - bye!
+
