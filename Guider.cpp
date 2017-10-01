@@ -43,7 +43,7 @@ void ISGetProperties (const char *dev)
 
 /**************************************************************************************
 
-** We init our properties here. The only thing we want to init are the Debug controls
+** We init our properties here. The only things we want to init are the Debug controls
 
 ***************************************************************************************/
 bool GuidingDriver::initProperties()
